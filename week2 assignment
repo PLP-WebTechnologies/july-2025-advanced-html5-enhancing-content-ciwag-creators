@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week2 assignment</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my practical pt2</h1>
+        <p>Trying out my hands on</p>
+    </header>
+
+    <section>
+        <h2>Some science subject in hhs</h2>
+        
+        <h3>Biology Topics</h3>
+        <ul>
+            <li>Reproduction</li>
+            <li>cell biology</li>
+            <li>Genetics</li>
+            <li>Growth</li>
+            <li>Nutrition</li>
+        </ul>
+        
+        <h3>Chemistry</h3>
+        <ol>
+            <li>Methane</li>
+            <li>Catalyst</li>
+            <li>Chemical reaction</li>
+            <li>food substance</li>
+            <li>Chemical change</li>
+        </ol>
+        
+        <h3>fruits</h3>
+        <dl>
+            <dt>Protein</dt>
+            <dd>egg,milk</dd>
+            <dt>carbohydrate</dt>
+            <dd>rice, garri,cassava</dd>
+            <dt>Vitamin</dt>
+            <dd>orange, lemon</dd>
+        </dl>
+    </section>
+
+    <section>
+        <h2>Tables Section</h2>
+        
+        <h3>fruits</h3>
+        <table border="1">
+                <tr>
+                    <th>protein</th>
+                    <th>carbohydrate</th>
+                    <th>Vitamin</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>beans</td>
+                    <td>yam</td>
+                    <td>grape</td>
+                </tr>
+                <tr>
+                    <td>fish</td>
+                    <td>cocoyam</td>
+                    <td>watermelon</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Media Section</h2>
+        
+        <h3>Images of fruits</h3>
+            <img src="https://cdn.pixabay.com/photo/2015/06/29/13/04/peaches-825564_960_720.jpg" alt="food tray" width="300" height="200">
+        
+        <h3>Video</h3>
+        <video width="320" height="240" controls>
+            <source src="strawberry.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="waterfall-140894.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Request for fruits</h2>
+        
+        <form id="registration" method="post" novalidate>
+            <fieldset>
+                <legend>Personal Information</legend>
+                
+                <label for="fullname">Full Name (required):</label>
+                <input type="text" id="fullname" name="fullname" required minlength="3" placeholder="Your name">
+                
+                <label for="email">Email (required):</label>
+                <input type="email" id="email" name="email" required placeholder="email@example.com">
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+                
+            </fieldset>
+
+    <footer>
+        <p>&copy;fruit gallery </p>
+    </footer>
+</body>
+</html>
